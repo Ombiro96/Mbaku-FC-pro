@@ -1,0 +1,38 @@
+.match-indicator {
+  width: 8px;
+  height: 8px;
+  background-color: #007bff;
+  border-radius: 50%;
+  margin: 2px auto;
+}
+
+.team-stats p {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upcoming-matches {
+  list-style: none;
+  padding-left: 0;
+}
+
+.upcoming-matches li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.dark .upcoming-matches li {
+  border-bottom-color: rgba(255,255,255,0.1);
+}
+
+.stats-summary {
+  background: rgba(0,0,0,0.05);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.dark .stats-summary {
+  background: rgba(255,255,255,0.05);
+}
