@@ -1,0 +1,32 @@
+.chess-hero-container {
+  padding: 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+}
+
+.game-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.players {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+.white-player {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.black-player {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+[data-theme='dark'] .chess-hero-container {
+  background: rgba(0, 0, 0, 0.2);
+}

@@ -13,7 +13,7 @@ const Footer = () => {
         <Row>
           <Col md={4}>
             <h5>Gazelle Masters</h5>
-            <p className="mb-3">Promoting chess excellence through competitive tournaments and rankings.</p>
+            <p className="mb-3">Promoting chess excellence through tracking competitive tournaments and rankings.</p>
           </Col>
           <Col md={4}>
             <h5>Quick Links</h5>
@@ -26,15 +26,15 @@ const Footer = () => {
           <Col md={4}>
             <h5>Contact</h5>
             <ul className="list-unstyled">
-              <li>Email: info@kenyachessgp.com</li>
-              <li>Phone: +254 700 000000</li>
+              <li>Email: bakutarb@gmail.com</li>
+              <li>Phone: +254 704156418</li>
               <li>Location: Nairobi, Kenya</li>
             </ul>
           </Col>
         </Row>
         <Row className="mt-3 pt-3 border-top">
           <Col className="text-center">
-            <small>&copy; {new Date().getFullYear()} Kenya Chess GP. All rights reserved.</small>
+            <small>&copy; {new Date().getFullYear()} Gazelle Masters. All rights reserved.</small>
           </Col>
         </Row>
       </Container>

@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <PageTransition>
       <div className="section-dark">
-        <div className="hero-section py-5">
+        <div className="hero-section py-0">
           <Container>
             <Row className="align-items-center">
               <Col md={6} className="text-md-start text-center">
@@ -51,12 +51,10 @@ const Home = () => {
                   transition={{ duration: 0.6 }}
                 >
                   <h1 className="display-4 fw-bold mb-4">
-                    Welcome to Kenya Chess Grand Prix
+                    Welcome to Gazelle Masters Hub
                   </h1>
                   <p className="lead mb-4">
-                    Join the most prestigious chess tournament series in Kenya.
-                    Compete against the best players, earn Grand Prix points,
-                    and track your progress throughout the season.
+                    Welcome to the gazelle masters hub, where you can find information abut tournaments in Kenya, champions, and more.
                   </p>
                   <div className="d-flex gap-3 justify-content-md-start justify-content-center">
                     <motion.div whileHover={{ scale: 1.05 }}>
@@ -150,7 +148,7 @@ const Home = () => {
             <Button
               as={Link}
               to="/standings"
-              variant={isDark ? 'outline-light' : 'outline-primary'}
+              variant={isDark ? 'light' : 'primary'}
               size="lg"
             >
               View Full Rankings
@@ -213,7 +211,7 @@ const Home = () => {
             <Button
               as={Link}
               to="/register"
-              variant={isDark ? 'outline-dark' : 'primary'}
+              variant={isDark ? 'light' : 'primary'}
               size="lg"
             >
               Get Started Today

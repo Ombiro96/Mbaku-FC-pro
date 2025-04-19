@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+.env
+.env.local
+.env.*.local
+
+# Server directories and files
+src/server/venv/
+src/server/__pycache__/
+src/server/chess.db

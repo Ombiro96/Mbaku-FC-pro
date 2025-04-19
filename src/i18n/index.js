@@ -5,7 +5,7 @@ const resources = {
   en: {
     translation: {
       nav: {
-        brand: 'Kenya Chess GP',
+        brand: 'Gazelle Masters Hub',
         home: 'Home',
         tournaments: 'Tournaments',
         standings: 'Standings',
@@ -23,7 +23,7 @@ const resources = {
         ja: '日本語'
       },
       home: {
-        welcome: 'Welcome to Kenya Chess Grand Prix',
+        welcome: 'Welcome to Gazelle Masters Hub',
         subtitle: 'Join the most prestigious chess tournament series in Kenya',
         cta: {
           view_tournaments: 'View Tournaments',
@@ -48,7 +48,7 @@ const resources = {
         tournament_wins: 'Tournament Wins'
       },
       footer: {
-        about: 'About Kenya Chess GP',
+        about: 'About Gazelle Masters Hub',
         quick_links: 'Quick Links',
         contact: 'Contact',
         rights: 'All rights reserved'
@@ -58,7 +58,7 @@ const resources = {
   sw: {
     translation: {
       nav: {
-        brand: 'Kenya Chess GP',
+        brand: 'Gazelle Masters Hub',
         home: 'Nyumbani',
         tournaments: 'Mashindano',
         standings: 'Msimamo',
@@ -75,7 +75,7 @@ const resources = {
         ja: '日本語'
       },
       home: {
-        welcome: 'Karibu kwenye Grand Prix ya Chess ya Kenya',
+        welcome: 'Karibu kwenye Gazelle Masters Hub',
         subtitle: 'Jiunge na mashindano bora zaidi ya chess nchini Kenya',
         cta: {
           view_tournaments: 'Tazama Mashindano',
@@ -100,7 +100,7 @@ const resources = {
         tournament_wins: 'Ushindi wa Mashindano'
       },
       footer: {
-        about: 'Kuhusu Kenya Chess GP',
+        about: 'Kuhusu Gazelle Masters Hub',
         quick_links: 'Viungo vya Haraka',
         contact: 'Mawasiliano',
         rights: 'Haki zote zimehifadhiwa'
@@ -151,7 +151,7 @@ const resources = {
         tournament_wins: 'Victorias en Torneos'
       },
       footer: {
-        about: 'Sobre Kenya Chess GP',
+        about: 'Sobre Gazelle Masters Hub',
         quick_links: 'Enlaces Rápidos',
         contact: 'Contacto',
         rights: 'Todos los derechos reservados'
@@ -202,7 +202,7 @@ const resources = {
         tournament_wins: 'トーナメント優勝'
       },
       footer: {
-        about: 'Kenya Chess GPについて',
+        about: 'Gazelle Masters Hubについて',
         quick_links: 'クイックリンク',
         contact: 'お問い合わせ',
         rights: '全ての権利を保有'
